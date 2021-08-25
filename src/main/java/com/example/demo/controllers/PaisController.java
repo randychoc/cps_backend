@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/paises")
+@RequestMapping("/api/paises")
 public class PaisController {
     @Autowired
     PaisService paisService;
